@@ -1,16 +1,16 @@
 # sts-batch-mybatis
-`MyBatisCursor`를 이용한 배치프로그램
-+환경변수를 받아 쿼리에 데이터를 날릴 수 있어야 한다.
-+Chunk방식으로 데이터를 효율적으로 업데이트 해야 한다.
+`MyBatisCursor`를 이용한 배치프로그램  
++환경변수를 받아 쿼리에 데이터를 날릴 수 있어야 한다.  
++Chunk방식으로 데이터를 효율적으로 업데이트 해야 한다.  
 
 # DB 세팅
-Database Info : 10.4.6-MariaDB
-Database Name : sts-test
-Table Name : employee
-Table Column
-- id (int)
-- name (varchar)
-- salary (double)
+Database Info : 10.4.6-MariaDB  
+Database Name : sts-test  
+Table Name : employee  
+Table Column  
+- id (int)  
+- name (varchar)  
+- salary (double)  
 
 # 테스트로그
 CMD
