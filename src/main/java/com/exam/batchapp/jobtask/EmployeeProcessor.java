@@ -12,6 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class EmployeeProcessor implements ItemProcessor<Employee, EmployeeOut> {
 
+    @SuppressWarnings("null")
     @Override
     public EmployeeOut process(Employee employee) throws Exception {
         // 필요한 처리 로직 구현
