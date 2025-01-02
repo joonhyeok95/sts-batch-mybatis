@@ -1,0 +1,16 @@
+spring: 
+  application:
+    name: batchapp
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: none
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/sts-test?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: 
+    hikari:
+      pool-name: my
+spring.batch.jdbc.isolation-level-for-create: default
+
+envRegion: ${ENV_REGION:KR}
